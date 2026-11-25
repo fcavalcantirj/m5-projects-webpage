@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://m5-projects.vercel.app/sitemap.xml

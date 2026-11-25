@@ -1,0 +1,290 @@
+{
+  "site": {
+    "url": "https://m5-projects.vercel.app",
+    "title": "fcavalcantirj: pocket hardware projects",
+    "description": "Small ESP32 devices that each do one job well, and the tools around them: a Wi-Fi guard, a grow-room VPD meter, speed-camera alerts, Cardputer apps on a phone, a datasheet-verified ESP32 catalog and two games.",
+    "handle": "fcavalcantirj",
+    "github": "https://github.com/fcavalcantirj"
+  },
+  "projects": [
+    {
+      "id": "guardian",
+      "name": "M5 Guardian",
+      "kicker": "M5StickS3 · Wi-Fi defense",
+      "tagline": "A pocket radio guard for your own Wi-Fi.",
+      "description": "It listens to the 2.4 GHz air around one network you pick and shows on its screen how that network advertises itself: five faces rate the security settings, a red ALERT marks an incident on your network, amber marks something nearby. Receive-only, signed updates, installed from the browser.",
+      "status": "live",
+      "statusLabel": "Live · v1.0.0",
+      "size": "xl",
+      "media": {
+        "type": "video",
+        "src": "img/guardian-faces.mp4",
+        "poster": "img/guardian-poster.webp",
+        "width": 270,
+        "height": 376,
+        "alt": "The Guardian face on the StickS3 screen cycling through its moods",
+        "fit": "contain"
+      },
+      "badges": [
+        "ESP-IDF",
+        "Web installer",
+        "MIT"
+      ],
+      "links": [
+        {
+          "label": "Visit site",
+          "href": "https://m5-guardian.vercel.app",
+          "kind": "site"
+        },
+        {
+          "label": "Code",
+          "href": "https://github.com/fcavalcantirj/m5-guardian",
+          "kind": "code"
+        }
+      ]
+    },
+    {
+      "id": "vpd",
+      "name": "Doutor VPD",
+      "kicker": "StickS3 + ENV III · Grow rooms",
+      "tagline": "Air VPD, measured where the plants are.",
+      "description": "A StickS3 with an ENV III sensor computes air VPD on the device, compares it with the target for each growth stage and keeps minute history, time in target and graphs. No phone, account or network needed.",
+      "status": "live",
+      "statusLabel": "Live",
+      "size": "tall",
+      "media": {
+        "type": "image",
+        "src": "img/doutor-vpd.webp",
+        "width": 430,
+        "height": 630,
+        "alt": "The Doutor VPD StickS3 on a desk, wired to its ENV III sensor, showing a VPD reading",
+        "fit": "cover"
+      },
+      "badges": [
+        "Signed firmware",
+        "Site in Portuguese"
+      ],
+      "links": [
+        {
+          "label": "Visit site",
+          "href": "https://www.doutorvpd.com.br",
+          "kind": "site"
+        },
+        {
+          "label": "Firmware",
+          "href": "https://github.com/fcavalcantirj/doutor-vpd-firmware",
+          "kind": "code"
+        }
+      ]
+    },
+    {
+      "id": "pardais",
+      "name": "Pardais",
+      "kicker": "iPhone · Android · the Pio",
+      "tagline": "Speed-camera alerts for the road.",
+      "description": "Alerts for fixed speed cameras by voice, beep and vibration through the car audio, with the screen locked and no account. The Pio, a StickS3 on-board companion, is the optional device.",
+      "status": "live",
+      "statusLabel": "Site live",
+      "size": "wide",
+      "media": {
+        "type": "image",
+        "src": "img/pardais.webp",
+        "width": 1200,
+        "height": 630,
+        "alt": "The Pio, a small black device showing 60 km/h, on a stylised road",
+        "fit": "cover"
+      },
+      "badges": [
+        "App + device",
+        "Site in Portuguese"
+      ],
+      "links": [
+        {
+          "label": "Visit site",
+          "href": "https://pardais.app",
+          "kind": "site"
+        }
+      ]
+    },
+    {
+      "id": "droidputer",
+      "name": "Droidputer",
+      "kicker": "ESP32-S3 · Android",
+      "tagline": "Cardputer apps, with your phone as the screen.",
+      "description": "Any open-source Cardputer app, rebuilt unchanged against a small shim, runs on an ESP32-S3 while an Android phone over USB-OTG becomes its screen, keyboard, GPS and flasher. No display needed on the board.",
+      "status": "live",
+      "statusLabel": "Live",
+      "size": "wide",
+      "media": {
+        "type": "image",
+        "src": "img/droidputer.webp",
+        "width": 1000,
+        "height": 671,
+        "alt": "An Android phone wired to a bare ESP32-S3 board",
+        "fit": "cover"
+      },
+      "badges": [
+        "USB-OTG",
+        "MIT"
+      ],
+      "links": [
+        {
+          "label": "Visit site",
+          "href": "https://droidputer.vercel.app",
+          "kind": "site"
+        },
+        {
+          "label": "Code",
+          "href": "https://github.com/fcavalcantirj/droidputer",
+          "kind": "code"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "name": "esp-atlas",
+      "kicker": "Open data · ESP32 family",
+      "tagline": "Which ESP32 for what you're building?",
+      "description": "A community-maintained, datasheet-verified catalog of ESP32 chips, modules, dev boards and the firmware that runs on them. Every hard spec cites an official source, and the data is plain markdown anyone can correct by pull request.",
+      "status": "live",
+      "statusLabel": "Live",
+      "size": "m",
+      "media": {
+        "type": "atlas"
+      },
+      "badges": [
+        "Datasheet-cited",
+        "Pull requests welcome"
+      ],
+      "links": [
+        {
+          "label": "Visit site",
+          "href": "https://esp-atlas.com",
+          "kind": "site"
+        },
+        {
+          "label": "Code",
+          "href": "https://github.com/fcavalcantirj/esp-atlas",
+          "kind": "code"
+        }
+      ]
+    },
+    {
+      "id": "pensebem",
+      "name": "Pense-Bem",
+      "kicker": "Cardputer ADV · Retro",
+      "tagline": "A 1988 TecToy classic, rebuilt.",
+      "description": "A clean-room behavioural recreation of the Pense-Bem educational toy for the M5Stack Cardputer ADV, with all ten built-in games and host-tested C++.",
+      "status": "open",
+      "statusLabel": "Open source",
+      "size": "m",
+      "media": {
+        "type": "video",
+        "src": "img/pense-bem.mp4",
+        "poster": "img/pense-bem-poster.webp",
+        "width": 400,
+        "height": 466,
+        "alt": "Pense-Bem being played on a Cardputer ADV"
+      },
+      "badges": [
+        "C++",
+        "Demo video"
+      ],
+      "links": [
+        {
+          "label": "Code",
+          "href": "https://github.com/fcavalcantirj/pense-bem-cardputer-adv",
+          "kind": "code"
+        }
+      ]
+    },
+    {
+      "id": "stackfall",
+      "name": "Stackfall",
+      "kicker": "StickS3 · Game",
+      "tagline": "Tilt to steer, dip to rotate.",
+      "description": "An original falling-block puzzle for one StickS3: tilt the stick to steer, dip it to rotate and soft-drop, SIDE hard-drops. The engine is pure C++17 and host-tested, and an autopilot can play it over USB.",
+      "status": "open",
+      "statusLabel": "Open source",
+      "size": "m",
+      "media": {
+        "type": "stackfall"
+      },
+      "badges": [
+        "IMU controls",
+        "MIT"
+      ],
+      "links": [
+        {
+          "label": "Code",
+          "href": "https://github.com/fcavalcantirj/sticks3-tetris",
+          "kind": "code"
+        },
+        {
+          "label": "Article",
+          "href": "https://github.com/fcavalcantirj/sticks3-tetris/blob/main/docs/articles/2026-09-26-stackfall-plays-itself.md",
+          "kind": "doc"
+        }
+      ]
+    },
+    {
+      "id": "aiusage",
+      "name": "AI usage",
+      "kicker": "StickS3 · Mac",
+      "tagline": "Your AI quotas on a tiny screen.",
+      "description": "Claude Code and Codex quotas on a StickS3 and in a local dashboard: a small Go daemon on the Mac reads the numbers and the stick mirrors them. Setting it up is one click, over Bluetooth.",
+      "status": "open",
+      "statusLabel": "Open source",
+      "size": "m",
+      "media": {
+        "type": "image",
+        "src": "img/ai-usage.webp",
+        "width": 1100,
+        "height": 749,
+        "alt": "The ai-usage dashboard showing provider quotas",
+        "fit": "cover"
+      },
+      "badges": [
+        "Go",
+        "MIT"
+      ],
+      "links": [
+        {
+          "label": "Code",
+          "href": "https://github.com/fcavalcantirj/sticks3-ai-usage",
+          "kind": "code"
+        }
+      ]
+    },
+    {
+      "id": "m5share",
+      "name": "M5Share",
+      "kicker": "StickS3 · Pen drive",
+      "tagline": "A pocket Wi-Fi file server.",
+      "description": "A read-only Wi-Fi file server: a StickS3 and a FAT32 pen drive.",
+      "status": "building",
+      "statusLabel": "Under construction",
+      "size": "m",
+      "media": {
+        "type": "none"
+      },
+      "badges": [],
+      "links": []
+    },
+    {
+      "id": "headpointer",
+      "name": "Head-pointer",
+      "kicker": "StickS3 · Accessibility",
+      "tagline": "Move the mouse with your head.",
+      "description": "An accessibility head pointer for the StickS3: head motion becomes mouse movement over USB or a bonded Bluetooth link.",
+      "status": "building",
+      "statusLabel": "Under construction",
+      "size": "m",
+      "media": {
+        "type": "none"
+      },
+      "badges": [],
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fcavalcantirj: pocket hardware projects</title>
+<meta name="description" content="Small ESP32 devices that each do one job well, and the tools around them: a Wi-Fi guard, a grow-room VPD meter, speed-camera alerts, Cardputer apps on a phone, a datasheet-verified ESP32 catalog and two games.">
+<link rel="canonical" href="https://m5-projects.vercel.app/">
+<meta name="theme-color" content="#07090a">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://m5-projects.vercel.app/">
+<meta property="og:title" content="fcavalcantirj: pocket hardware projects">
+<meta property="og:description" content="Small ESP32 devices that each do one job well, and the tools around them: a Wi-Fi guard, a grow-room VPD meter, speed-camera alerts, Cardputer apps on a phone, a datasheet-verified ESP32 catalog and two games.">
+<meta property="og:image" content="https://m5-projects.vercel.app/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pocket hardware projects by fcavalcantirj: Guardian, Doutor VPD, Pardais, Droidputer and more">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="fcavalcantirj: pocket hardware projects">
+<meta name="twitter:description" content="Small ESP32 devices that each do one job well, and the tools around them: a Wi-Fi guard, a grow-room VPD meter, speed-camera alerts, Cardputer apps on a phone, a datasheet-verified ESP32 catalog and two games.">
+<meta name="twitter:image" content="https://m5-projects.vercel.app/og.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"fcavalcantirj: pocket hardware projects","url":"https://m5-projects.vercel.app/","description":"Small ESP32 devices that each do one job well, and the tools around them: a Wi-Fi guard, a grow-room VPD meter, speed-camera alerts, Cardputer apps on a phone, a datasheet-verified ESP32 catalog and two games.","author":{"@type":"Person","alternateName":"fcavalcantirj","url":"https://github.com/fcavalcantirj"},"mainEntity":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"M5 Guardian","description":"A pocket radio guard for your own Wi-Fi.","url":"https://m5-guardian.vercel.app"},{"@type":"ListItem","position":2,"name":"Doutor VPD","description":"Air VPD, measured where the plants are.","url":"https://www.doutorvpd.com.br"},{"@type":"ListItem","position":3,"name":"Pardais","description":"Speed-camera alerts for the road.","url":"https://pardais.app"},{"@type":"ListItem","position":4,"name":"Droidputer","description":"Cardputer apps, with your phone as the screen.","url":"https://droidputer.vercel.app"},{"@type":"ListItem","position":5,"name":"esp-atlas","description":"Which ESP32 for what you're building?","url":"https://esp-atlas.com"},{"@type":"ListItem","position":6,"name":"Pense-Bem","description":"A 1988 TecToy classic, rebuilt.","url":"https://github.com/fcavalcantirj/pense-bem-cardputer-adv"},{"@type":"ListItem","position":7,"name":"Stackfall","description":"Tilt to steer, dip to rotate.","url":"https://github.com/fcavalcantirj/sticks3-tetris"},{"@type":"ListItem","position":8,"name":"AI usage","description":"Your AI quotas on a tiny screen.","url":"https://github.com/fcavalcantirj/sticks3-ai-usage"}]}}</script>
+<script defer src="/main.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<a class="skip" href="#projects">Skip to the projects</a>
+<header class="top">
+  <a class="brand" href="/" aria-label="fcavalcantirj, home">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="7" width="18" height="18" rx="3"/><path d="M11 3v4M16 3v4M21 3v4M11 25v4M16 25v4M21 25v4M3 11h4M3 16h4M3 21h4M25 11h4M25 16h4M25 21h4"/><rect class="core" x="12" y="12" width="8" height="8" rx="1.5"/></svg>
+    <span>fcavalcantirj</span>
+  </a>
+  <a class="top-link" href="https://github.com/fcavalcantirj" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <p class="eyebrow"><span class="pulse" aria-hidden="true"></span>ESP32 · M5Stack · built in the open</p>
+    <h1 id="hero-title">Pocket hardware.<br><span>One job each.</span></h1>
+    <p class="lede">Small ESP32 devices that do one thing well, and the tools around them: a Wi-Fi guard, a grow-room VPD meter, speed-camera alerts, Cardputer apps on a phone, an ESP32 catalog and a couple of games.</p>
+    <ul class="stats" aria-label="At a glance">
+      <li><strong>8</strong> shipped</li>
+      <li><strong>2</strong> under construction</li>
+      <li class="chips"><span>StickS3</span><span>Cardputer ADV</span><span>ESP32-S3</span><span>Android · iOS</span></li>
+    </ul>
+  </section>
+
+  <section id="projects" class="grid" aria-label="Projects">
+    <article class="card size-xl accent-guardian status-live" aria-labelledby="t-guardian">
+      <figure class="media fit-contain"><video src="/img/guardian-faces.mp4" poster="/img/guardian-poster.webp" width="270" height="376" muted loop playsinline preload="none" aria-label="The Guardian face on the StickS3 screen cycling through its moods" data-autoplay></video></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>M5StickS3 · Wi‑Fi defense<span class="status">Live · v1.0.0</span></p>
+        <h2 id="t-guardian">M5 Guardian</h2>
+        <p class="tagline">A pocket radio guard for your own Wi‑Fi.</p>
+        <p class="desc">It listens to the 2.4 GHz air around one network you pick and shows on its screen how that network advertises itself: five faces rate the security settings, a red ALERT marks an incident on your network, amber marks something nearby. Receive-only, signed updates, installed from the browser.</p>
+        <ul class="badges" aria-label="Details"><li>ESP-IDF</li><li>Web installer</li><li>MIT</li></ul>
+        <div class="links"><a class="btn btn-site" href="https://m5-guardian.vercel.app" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 3 13"/></svg><span>Visit site</span><span class="sr"> (M5 Guardian, opens in a new tab)</span></a><a class="btn btn-code" href="https://github.com/fcavalcantirj/m5-guardian" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 4 2 8l3.5 4M10.5 4 14 8l-3.5 4"/></svg><span>Code</span><span class="sr"> (M5 Guardian, opens in a new tab)</span></a></div>
+      </div>
+    </article>
+    <article class="card size-tall accent-vpd status-live" aria-labelledby="t-vpd">
+      <figure class="media fit-cover"><img src="/img/doutor-vpd.webp" width="430" height="630" alt="The Doutor VPD StickS3 on a desk, wired to its ENV III sensor, showing a VPD reading" loading="lazy" decoding="async"></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>StickS3 + ENV III · Grow rooms<span class="status">Live</span></p>
+        <h2 id="t-vpd">Doutor VPD</h2>
+        <p class="tagline">Air VPD, measured where the plants are.</p>
+        <p class="desc">A StickS3 with an ENV III sensor computes air VPD on the device, compares it with the target for each growth stage and keeps minute history, time in target and graphs. No phone, account or network needed.</p>
+        <ul class="badges" aria-label="Details"><li>Signed firmware</li><li>Site in Portuguese</li></ul>
+        <div class="links"><a class="btn btn-site" href="https://www.doutorvpd.com.br" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 3 13"/></svg><span>Visit site</span><span class="sr"> (Doutor VPD, opens in a new tab)</span></a><a class="btn btn-code" href="https://github.com/fcavalcantirj/doutor-vpd-firmware" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 4 2 8l3.5 4M10.5 4 14 8l-3.5 4"/></svg><span>Firmware</span><span class="sr"> (Doutor VPD, opens in a new tab)</span></a></div>
+      </div>
+    </article>
+    <article class="card size-wide accent-pardais status-live" aria-labelledby="t-pardais">
+      <figure class="media fit-cover"><img src="/img/pardais.webp" width="1200" height="630" alt="The Pio, a small black device showing 60 km/h, on a stylised road" loading="lazy" decoding="async"></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>iPhone · Android · the Pio<span class="status">Site live</span></p>
+        <h2 id="t-pardais">Pardais</h2>
+        <p class="tagline">Speed-camera alerts for the road.</p>
+        <p class="desc">Alerts for fixed speed cameras by voice, beep and vibration through the car audio, with the screen locked and no account. The Pio, a StickS3 on-board companion, is the optional device.</p>
+        <ul class="badges" aria-label="Details"><li>App + device</li><li>Site in Portuguese</li></ul>
+        <div class="links"><a class="btn btn-site" href="https://pardais.app" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 3 13"/></svg><span>Visit site</span><span class="sr"> (Pardais, opens in a new tab)</span></a></div>
+      </div>
+    </article>
+    <article class="card size-wide accent-droidputer status-live" aria-labelledby="t-droidputer">
+      <figure class="media fit-cover"><img src="/img/droidputer.webp" width="1000" height="671" alt="An Android phone wired to a bare ESP32-S3 board" loading="lazy" decoding="async"></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>ESP32-S3 · Android<span class="status">Live</span></p>
+        <h2 id="t-droidputer">Droidputer</h2>
+        <p class="tagline">Cardputer apps, with your phone as the screen.</p>
+        <p class="desc">Any open-source Cardputer app, rebuilt unchanged against a small shim, runs on an ESP32-S3 while an Android phone over USB-OTG becomes its screen, keyboard, GPS and flasher. No display needed on the board.</p>
+        <ul class="badges" aria-label="Details"><li>USB-OTG</li><li>MIT</li></ul>
+        <div class="links"><a class="btn btn-site" href="https://droidputer.vercel.app" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 3 13"/></svg><span>Visit site</span><span class="sr"> (Droidputer, opens in a new tab)</span></a><a class="btn btn-code" href="https://github.com/fcavalcantirj/droidputer" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 4 2 8l3.5 4M10.5 4 14 8l-3.5 4"/></svg><span>Code</span><span class="sr"> (Droidputer, opens in a new tab)</span></a></div>
+      </div>
+    </article>
+    <article class="card size-m accent-atlas status-live" aria-labelledby="t-atlas">
+      <figure class="media art-atlas" aria-hidden="true"><div class="layer l3"><b>Board</b><i>dev kits · M5Stack · LilyGO</i></div><div class="layer l2"><b>Module</b><i>WROOM · PICO · MINI</i></div><div class="layer l1"><b>SoC</b><i>ESP32 · S3 · C3 · C6 · P4</i></div></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>Open data · ESP32 family<span class="status">Live</span></p>
+        <h2 id="t-atlas">esp-atlas</h2>
+        <p class="tagline">Which ESP32 for what you&#39;re building?</p>
+        <p class="desc">A community-maintained, datasheet-verified catalog of ESP32 chips, modules, dev boards and the firmware that runs on them. Every hard spec cites an official source, and the data is plain markdown anyone can correct by pull request.</p>
+        <ul class="badges" aria-label="Details"><li>Datasheet-cited</li><li>Pull requests welcome</li></ul>
+        <div class="links"><a class="btn btn-site" href="https://esp-atlas.com" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 3 13"/></svg><span>Visit site</span><span class="sr"> (esp-atlas, opens in a new tab)</span></a><a class="btn btn-code" href="https://github.com/fcavalcantirj/esp-atlas" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 4 2 8l3.5 4M10.5 4 14 8l-3.5 4"/></svg><span>Code</span><span class="sr"> (esp-atlas, opens in a new tab)</span></a></div>
+      </div>
+    </article>
+    <article class="card size-m accent-pensebem status-open" aria-labelledby="t-pensebem">
+      <figure class="media fit-cover"><video src="/img/pense-bem.mp4" poster="/img/pense-bem-poster.webp" width="400" height="466" muted loop playsinline preload="none" aria-label="Pense-Bem being played on a Cardputer ADV" data-autoplay></video></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>Cardputer ADV · Retro<span class="status">Open source</span></p>
+        <h2 id="t-pensebem">Pense-Bem</h2>
+        <p class="tagline">A 1988 TecToy classic, rebuilt.</p>
+        <p class="desc">A clean-room behavioural recreation of the Pense-Bem educational toy for the M5Stack Cardputer ADV, with all ten built-in games and host-tested C++.</p>
+        <ul class="badges" aria-label="Details"><li>C++</li><li>Demo video</li></ul>
+        <div class="links"><a class="btn btn-code" href="https://github.com/fcavalcantirj/pense-bem-cardputer-adv" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 4 2 8l3.5 4M10.5 4 14 8l-3.5 4"/></svg><span>Code</span><span class="sr"> (Pense-Bem, opens in a new tab)</span></a></div>
+      </div>
+    </article>
+    <article class="card size-m accent-stackfall status-open" aria-labelledby="t-stackfall">
+      <figure class="media art-stackfall" aria-hidden="true"><div class="well"><span class="piece p1"></span><span class="piece p2"></span><span class="piece p3"></span><span class="piece p4"></span><span class="floor"></span></div></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>StickS3 · Game<span class="status">Open source</span></p>
+        <h2 id="t-stackfall">Stackfall</h2>
+        <p class="tagline">Tilt to steer, dip to rotate.</p>
+        <p class="desc">An original falling-block puzzle for one StickS3: tilt the stick to steer, dip it to rotate and soft-drop, SIDE hard-drops. The engine is pure C++17 and host-tested, and an autopilot can play it over USB.</p>
+        <ul class="badges" aria-label="Details"><li>IMU controls</li><li>MIT</li></ul>
+        <div class="links"><a class="btn btn-code" href="https://github.com/fcavalcantirj/sticks3-tetris" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 4 2 8l3.5 4M10.5 4 14 8l-3.5 4"/></svg><span>Code</span><span class="sr"> (Stackfall, opens in a new tab)</span></a><a class="btn btn-doc" href="https://github.com/fcavalcantirj/sticks3-tetris/blob/main/docs/articles/2026-09-26-stackfall-plays-itself.md" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2h5l3 3v9H4zM9 2v3h3"/></svg><span>Article</span><span class="sr"> (Stackfall, opens in a new tab)</span></a></div>
+      </div>
+    </article>
+    <article class="card size-m accent-aiusage status-open" aria-labelledby="t-aiusage">
+      <figure class="media fit-cover"><img src="/img/ai-usage.webp" width="1100" height="749" alt="The ai-usage dashboard showing provider quotas" loading="lazy" decoding="async"></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>StickS3 · Mac<span class="status">Open source</span></p>
+        <h2 id="t-aiusage">AI usage</h2>
+        <p class="tagline">Your AI quotas on a tiny screen.</p>
+        <p class="desc">Claude Code and Codex quotas on a StickS3 and in a local dashboard: a small Go daemon on the Mac reads the numbers and the stick mirrors them. Setting it up is one click, over Bluetooth.</p>
+        <ul class="badges" aria-label="Details"><li>Go</li><li>MIT</li></ul>
+        <div class="links"><a class="btn btn-code" href="https://github.com/fcavalcantirj/sticks3-ai-usage" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 4 2 8l3.5 4M10.5 4 14 8l-3.5 4"/></svg><span>Code</span><span class="sr"> (AI usage, opens in a new tab)</span></a></div>
+      </div>
+    </article>
+    <article class="card size-m accent-m5share status-building" aria-labelledby="t-m5share">
+      <figure class="media art-tape" aria-hidden="true"><span>Under construction</span></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>StickS3 · Pen drive<span class="status">Under construction</span></p>
+        <h2 id="t-m5share">M5Share</h2>
+        <p class="tagline">A pocket Wi‑Fi file server.</p>
+        <p class="desc">A read-only Wi‑Fi file server: a StickS3 and a FAT32 pen drive.</p>
+        
+        
+      </div>
+    </article>
+    <article class="card size-m accent-headpointer status-building" aria-labelledby="t-headpointer">
+      <figure class="media art-tape" aria-hidden="true"><span>Under construction</span></figure>
+      <div class="body">
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>StickS3 · Accessibility<span class="status">Under construction</span></p>
+        <h2 id="t-headpointer">Head-pointer</h2>
+        <p class="tagline">Move the mouse with your head.</p>
+        <p class="desc">An accessibility head pointer for the StickS3: head motion becomes mouse movement over USB or a bonded Bluetooth link.</p>
+        
+        
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>Made by <a href="https://github.com/fcavalcantirj" target="_blank" rel="noopener">fcavalcantirj</a>. Each project keeps its own licence; follow its links for the details.</p>
+  <p class="fine">No cookies. Visits are counted anonymously.</p>
+</footer>
+</body>
+</html>
